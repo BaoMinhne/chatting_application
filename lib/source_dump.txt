@@ -1,3 +1,26 @@
+# ==================================================
+# Path: D:\VSCode\chatting_application\lib
+# Detected tech: flutter
+# ==================================================
+
+## DIRECTORY STRUCTURE
+```
+lib/
+├── pages/
+│   ├── chat_page.dart
+│   ├── home.dart
+│   └── onboarding.dart
+├── services/
+│   ├── auth.dart
+│   ├── database.dart
+│   └── shared_pref.dart
+└── main.dart
+```
+
+## FILE CONTENTS
+
+### main.dart
+```dart
 import 'package:chatting_application/pages/chat_page.dart';
 import 'package:chatting_application/pages/home.dart';
 import 'package:chatting_application/pages/onboarding.dart';
@@ -23,3 +46,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+```
